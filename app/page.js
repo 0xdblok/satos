@@ -7,6 +7,7 @@ import All from "./component/all";
 import Tokenomics from "./component/tokenomics";
 import Footer from "./component/footer";
 import bleu from "./asset/bleu.png";
+import blank from "./asset/blank.png";
 export default function Home() {
   return (
     <div>
@@ -16,7 +17,7 @@ export default function Home() {
         {" "}
         <Image
           className="w-full"
-          src={blanc}
+          src={blank}
           alt=""
           width={560}
           height={560}
