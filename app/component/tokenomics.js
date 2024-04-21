@@ -4,7 +4,9 @@ import token from "../asset/token.png";
 export default function Tokenomics() {
   return (
     <div>
-      <h1 className="text-center text-2xl  font-bold pt-8">TOKENOMICS</h1>{" "}
+      <h1 className="text-center text-2xl  font-bold pt-8 md:text-4xl ">
+        TOKENOMICS
+      </h1>{" "}
       <div className="flex justify-between px-6 gap-8  ">
         <div className="w-1/2">
           {" "}
@@ -17,7 +19,7 @@ export default function Tokenomics() {
           />{" "}
         </div>
         <div className="text-center flex flex-col justify-center items-center w-1/2 ">
-          <p className=" text-xs font-semibold">total supply</p>
+          <p className=" text-xs font-semibold md:text-base">total supply</p>
           <div>
             {" "}
             <Image
@@ -28,7 +30,7 @@ export default function Tokenomics() {
               height={460}
             />{" "}
           </div>
-          <p className="pt-8 md:pt-16 text-xs font-semibold">
+          <p className="pt-8 md:text-base md:pt-16 text-xs font-semibold">
             contract address
           </p>
           <div>

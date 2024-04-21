@@ -39,7 +39,7 @@ export default function Home() {
         {" "}
         <Image
           className="w-full"
-          src={blanc}
+          src={blank}
           alt=""
           width={560}
           height={560}

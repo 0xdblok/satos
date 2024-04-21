@@ -6,18 +6,18 @@ export default function Matrix() {
     <div className="pt-16">
       <div className="flex h-full justify-between gap-6 px-6 ">
         <div className="text-center w-1/2 ">
-          <h1 className="pt-2 text-2xl font-bold">
+          <h1 className="pt-2 text-2xl  md:text-4xl font-bold">
             ESCAPE THE <span className="text-[#FF914D]">MATRIX</span>
           </h1>
 
-          <p className="text-xs">
-            $SATOSHI started a battle for everyone who believes in freedom from
+          <p className="text-xs md:text-base">
+            $BITCOIN started a battle for everyone who believes in freedom from
             the matrix.
           </p>
           <div className="flex justify-center pt-4">
-            <a className="px-3 text-xs py-2 font-semibold bg-black rounded-2xl text-white">
+            <a className="px-3 md:text-base text-xs py-2 font-semibold bg-black rounded-2xl text-white">
               {" "}
-              BUY BITCOIN
+              BUY $BITCOIN
             </a>
           </div>
         </div>{" "}

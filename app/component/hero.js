@@ -54,9 +54,11 @@ export default function Hero() {
               />
             </a>
           </div>
-          <h1 className="pt-2 text-2xl font-bold text-[#FF914D]">$BITCOIN</h1>
-          <h2 className=" text-lg font-bold">FATHER OF BITCOIN</h2>{" "}
-          <p className="text-xs">
+          <h1 className="pt-2 text-2xl font-bold text-[#FF914D] md:text-4xl ">
+            $BITCOIN
+          </h1>
+          <h2 className=" text-lg font-bold md:text-4xl ">FATHER OF BITCOIN</h2>{" "}
+          <p className="text-xs md:text-base">
             $BITCOIN is a memecoin with a big mission: celebrate Satoshi and his
             invention, Bitcoin, in the day of the halving.
           </p>
