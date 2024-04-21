@@ -13,7 +13,7 @@ export default function Hero() {
         </div>
         <div className="text-center flex flex-col justify-center items-center  w-1/2">
           <div className="flex gap-4 justify-center">
-            <a>
+            <a href="https://x.com/satnakamotosol">
               {" "}
               <Image
                 className=""
@@ -23,7 +23,7 @@ export default function Hero() {
                 height={16}
               />
             </a>
-            <a>
+            <a href="https://t.me/+Y-jcE5KSorc1Mzhl">
               {" "}
               <Image
                 className=""
@@ -45,13 +45,7 @@ export default function Hero() {
             </a>
             <a>
               {" "}
-              <Image
-                className="top-[20px]"
-                src={dex}
-                alt=""
-                width={28}
-                height={26}
-              />
+              <Image className="" src={dex} alt="" width={18} height={18} />
             </a>
           </div>
           <h1 className="pt-2 text-2xl font-bold text-[#FF914D] md:text-4xl ">
